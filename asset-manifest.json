@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mochi-king-game/static/css/main.8e2ec1c2.css",
+    "main.js": "/mochi-king-game/static/js/main.476e1b0f.js",
+    "static/js/787.d0f8fa94.chunk.js": "/mochi-king-game/static/js/787.d0f8fa94.chunk.js",
+    "static/media/king.jpeg": "/mochi-king-game/static/media/king.fb304c068d5851f3b266.jpeg",
+    "index.html": "/mochi-king-game/index.html",
+    "main.8e2ec1c2.css.map": "/mochi-king-game/static/css/main.8e2ec1c2.css.map",
+    "main.476e1b0f.js.map": "/mochi-king-game/static/js/main.476e1b0f.js.map",
+    "787.d0f8fa94.chunk.js.map": "/mochi-king-game/static/js/787.d0f8fa94.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e2ec1c2.css",
+    "static/js/main.476e1b0f.js"
+  ]
+}

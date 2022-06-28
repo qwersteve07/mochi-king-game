@@ -1,4 +1,4 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import styles from "./index.module.sass";
 import king from "./king.jpeg";
 
@@ -9,8 +9,21 @@ const player = (name) => {
   };
 };
 
+const KING_GAME = "king_game";
+
 const App = () => {
-  const [players, setPlayers] = useState([]);
+  const [players, setPlayers] = useState(() => {
+    if (sessionStorage.getItem(KING_GAME)) {
+      return JSON.parse(sessionStorage.getItem(KING_GAME));
+    } else {
+      return [];
+    }
+  });
+
+  useEffect(() => {
+    if (players.length === 0) return;
+    sessionStorage.setItem(KING_GAME, JSON.stringify(players));
+  }, [players]);
 
   const isKing = (currentPlayer) => {
     setPlayers((prev) => {
@@ -94,6 +107,15 @@ const App = () => {
 
   return (
     <div className={styles.app}>
+      <div
+        className={styles.clear}
+        onClick={() => {
+          sessionStorage.removeItem(KING_GAME);
+          setPlayers([]);
+        }}
+      >
+        清除
+      </div>
       <header className={styles.header}>
         <img src={king} alt="king" />
         <h1>麻吉杯第 ? 屆國王遊戲</h1>

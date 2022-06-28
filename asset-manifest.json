@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mochi-king-game/static/css/main.56db97ee.css",
-    "main.js": "/mochi-king-game/static/js/main.16dbd58a.js",
+    "main.css": "/mochi-king-game/static/css/main.6cc13a80.css",
+    "main.js": "/mochi-king-game/static/js/main.b14ed485.js",
     "static/js/787.d0f8fa94.chunk.js": "/mochi-king-game/static/js/787.d0f8fa94.chunk.js",
     "static/media/king.jpeg": "/mochi-king-game/static/media/king.fb304c068d5851f3b266.jpeg",
     "index.html": "/mochi-king-game/index.html",
-    "main.56db97ee.css.map": "/mochi-king-game/static/css/main.56db97ee.css.map",
-    "main.16dbd58a.js.map": "/mochi-king-game/static/js/main.16dbd58a.js.map",
+    "main.6cc13a80.css.map": "/mochi-king-game/static/css/main.6cc13a80.css.map",
+    "main.b14ed485.js.map": "/mochi-king-game/static/js/main.b14ed485.js.map",
     "787.d0f8fa94.chunk.js.map": "/mochi-king-game/static/js/787.d0f8fa94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56db97ee.css",
-    "static/js/main.16dbd58a.js"
+    "static/css/main.6cc13a80.css",
+    "static/js/main.b14ed485.js"
   ]
 }
